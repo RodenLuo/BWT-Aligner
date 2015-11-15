@@ -37,3 +37,4 @@ while($line=<Rot>){
 
 print Bdx "$ref_name\nA\t$A\nC\t$C\nG\t$G\nT\t$T\nN\t$N\n";
 system("rm $bdx_ref_name");
+system("rm $inputFile");
