@@ -1,8 +1,7 @@
 #!/usr/bin/perl
-die "usage: perl smith-waterman_aln_fasta.pl <ref.fa> <ref_rotation>\n" unless @ARGV == 2;
+die "usage: perl rotation.pl <ref.fa> <ref_rotation>\n" unless @ARGV == 2;
 
 $headlen = 140;
-$linelen = 70;
 
 $seq=$ARGV[0];
 $out="$ARGV[1].out";
@@ -18,7 +17,7 @@ $header_line = <Seq>; # get header
 ($ref_name,$_) = split(/ /, $header);
 print Bdx $ref_name;
 
-$line1 = <Seq>;chomp $line1;
+$line1 = <Seq>;chomp $line1;  $linelen = length($line1);
 $line2 = <Seq>;chomp $line2;
 $line3 = <Seq>;chomp $line3;
 $line = $line1.$line2.$line3;
