@@ -1,6 +1,11 @@
+# BWT-Aligner
+Perl implementation of Burrows-Wheeler Transform and the Alignment process, which is the core algorithm for Bowtie2 and BWA.
+
+This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC](http://www.sustc.edu.cn/).
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [BWT-Aligner](#bwt-aligner)
   - [Introduction to BWT and the alignment algorithms](#introduction-to-bwt-and-the-alignment-algorithms)
@@ -8,11 +13,6 @@
   - [BWT-Aligner-in-Per: For Human genome](#bwt-aligner-in-per-for-human-genome)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# BWT-Aligner
-Perl implementation of Burrows-Wheeler Transform and the Alignment process, which is the core algorithm for Bowtie2 and BWA.
-
-This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC](http://www.sustc.edu.cn/).
 
 ##Introduction to BWT and the alignment algorithms
 
