@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [BWT-Aligner](#bwt-aligner)
+  - [Introduction to BWT and the alignment algorithms](#introduction-to-bwt-and-the-alignment-algorithms)
+  - [BWT-Aligner-in-Per: For Lambda_virus](#bwt-aligner-in-per-for-lambda_virus)
+  - [BWT-Aligner-in-Per: For Human genome](#bwt-aligner-in-per-for-human-genome)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # BWT-Aligner
 Perl implementation of Burrows-Wheeler Transform and the Alignment process, which is the core algorithm for Bowtie2 and BWA.
 
