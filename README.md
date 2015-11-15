@@ -16,4 +16,9 @@ perl tally.pl lambda_rot.sort lambda.tally
 # Build tally index for the rotated_sorted file.
 # This will output two files: lambda.tally.bdx and lambda.tally. The files generated in the first step, lambda_rot.sort and lambda_rot.sort.ref_name.bdx, will be deleted in this step.
 ```
+```bash
+perl BWT-Aligner.pl lambda.tally reads_1.fq reads_1.sam
+# Since the index is built, you can now align the raw reads onto the reference.
+# This will output the alignment in SAM format, reads_1.sam.
+```
 ##BWT-Aligner-in-Per: For Human genome
