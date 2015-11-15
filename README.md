@@ -7,10 +7,11 @@ This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC]
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [BWT-Aligner](#bwt-aligner)
-  - [Introduction to BWT and the alignment algorithms](#introduction-to-bwt-and-the-alignment-algorithms)
-  - [BWT-Aligner-in-Perl: For Lambda_virus](#bwt-aligner-in-perl-for-lambda_virus)
-  - [BWT-Aligner-in-Perl: For Human genome](#bwt-aligner-in-perl-for-human-genome)
+- [Introduction to BWT and the alignment algorithms](#introduction-to-bwt-and-the-alignment-algorithms)
+- [BWT-Aligner-in-Perl: For Lambda_virus](#bwt-aligner-in-perl-for-lambda_virus)
+  - [Usages](#usages)
+  - [View results](#view-results)
+- [BWT-Aligner-in-Perl: For Human genome](#bwt-aligner-in-perl-for-human-genome)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
