@@ -16,6 +16,17 @@ This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC]
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ##Introduction to BWT and the alignment algorithms
+Use Bowtie2 as example:
+
+![Bowtie2_1](https://github.com/RodenLuo/BWT-Aligner/blob/master/images/Bowtie2_1.jpg)
+
+>Burrows-Wheeler transform. (a) The Burrows-Wheeler matrix and transformation for 'acaacg'. (b) Steps taken by EXACTMATCH to identify the range of rows, and thus the set of reference suffixes, prefixed by 'aac'. (c) UNPERMUTE repeatedly applies the last first (LF) mapping to recover the original text (in red on the top line) from the Burrows-Wheeler transform (in black in the rightmost column).
+Langmead et al. Genome Biology 2009 10:R25   doi:10.1186/gb-2009-10-3-r25
+
+![Bowtie2_2](https://github.com/RodenLuo/BWT-Aligner/blob/master/images/Bowtie2_2.jpg)
+
+>Exact matching versus inexact alignment. Illustration of how EXACTMATCH (top) and Bowtie's aligner (bottom) proceed when there is no exact match for query 'ggta' but there is a one-mismatch alignment when 'a' is replaced by 'g'. Boxed pairs of numbers denote ranges of matrix rows beginning with the suffix observed up to that point. A red X marks where the algorithm encounters an empty range and either aborts (as in EXACTMATCH) or backtracks (as in the inexact algorithm). A green check marks where the algorithm finds a nonempty range delimiting one or more occurrences of a reportable alignment for the query.
+Langmead et al. Genome Biology 2009 10:R25   doi:10.1186/gb-2009-10-3-r25
 
 ##BWT-Aligner-in-Perl: For Lambda_virus
 #####Usages:
